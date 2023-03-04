@@ -7,6 +7,6 @@ Hydra has the ability to bruteforce the following protocols: Asterisk, AFP, Cisc
 
 https://en.kali.tools/?p=220
 
-<pre>
+
 ![image](https://user-images.githubusercontent.com/105601437/222922462-c0cf02c3-92d4-4950-a0f1-6f4936706740.png)
-</pre>
+
